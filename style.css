@@ -1,0 +1,13 @@
+
+.nav-bar-container {
+display: flex;
+justify-content: center;
+}
+
+
+
+
+
+.hidden {
+    display: none;
+}
