@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giphy Party</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 </head>
 <body>
-    <div class = "nav-bar container">
-        <h1>Giphy Party</h1>
+    <div class = "nav-bar-container">
+        <h1 class = "title">Giphy Party</h1>
 
         <form id = "search-bar">
             <input type = "text" id = "search" placeholder = "Search"> 
             <button type = "submit" id = "submit-button">Submit</button>
+        </div>
         </form>
-    </div>
+
 <div id = "gif-container" 
 <img id = "gifs" src = "lol.jpg" alt = "gif">
 </div>
-<div class = "hidden">
-    <button type = "button">Load More</button>
+
+<button id = "load-more" class = "hidden"> Load More Gifs</button>
 </div>
-    </body>
+
   
     <script src="script.js"></script>
 </body>

@@ -1,13 +1,37 @@
+body {
+background-color: #8FC1B5;
+}
 
 .nav-bar-container {
 display: flex;
+flex-direction: column;
 justify-content: center;
+
+}
+.title {
+    font-family:"Sofia", serif;
+    font-size: 50px;
 }
 
+#gif-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
 
-
-
+img {
+     width: 100%;
+     height: auto;
+}
 
 .hidden {
     display: none;
 }
+
+#load-more {
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
